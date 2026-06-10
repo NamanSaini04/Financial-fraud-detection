@@ -1,0 +1,22 @@
+# Data — too large for git, download instructions in README
+data/raw/
+data/processed/
+
+# Saved models
+models/*.pkl
+models/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
