@@ -1,5 +1,9 @@
 # 💳 Financial Fraud Detection Analytics
 
+### 🚀 [**Try the live dashboard →**](https://financial-fraud-detection-9arzobmjkhfrofqg4dqma4.streamlit.app/)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://financial-fraud-detection-9arzobmjkhfrofqg4dqma4.streamlit.app/)
+
 End-to-end machine-learning pipeline that detects fraudulent credit-card transactions
 in a **severely imbalanced** dataset (0.17% fraud) — and turns the model into an
 actual **cost-based business decision** rather than chasing accuracy.
