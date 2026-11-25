@@ -1,10 +1,14 @@
 # Data — too large for git, download instructions in README
 data/raw/
-data/processed/
+data/processed/*
+# ...except the test split, committed so the deployed dashboard works
+!data/processed/test.parquet
 
 # Saved models
 models/*.pkl
 models/*.joblib
+# ...except the best model, committed so the deployed dashboard works
+!models/best_xgboost.joblib
 
 # Python
 __pycache__/
